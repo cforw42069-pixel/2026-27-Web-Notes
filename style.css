@@ -1,7 +1,7 @@
 body {background-color: black;}
 html {background-color: black;}
 h1 {color: blue; text-align: center;}
-Header {height: 100px; background-color: darkviolet; color: blue;}
+Header {height: 100px; background-color: black; color: blue;}
 nav {height: 25px; background-color: darkviolet; color: blue;}
 main {height: 500px; background-color: darkviolet; color: blue;}
 article {height: 450px; background-color: Darkviolet; width: 70%; float: left; color: blue; border-radius: 8px; margin: 5px; padding: 5px;}
