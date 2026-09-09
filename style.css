@@ -1,13 +1,15 @@
-body {background-color: black;}
+body {background-color: black; color: blue; font-family: Arial, Helvetica, sans-serif;}
 html {background-color: black;}
-h1 {color: blue; text-align: center;}
+h1 {color: Black; text-align: center; font-size: 25pt; font-family: Arial, Helvetica, sans-serif;}
 header {height: 100px; background-color: black; color: blue;}
-nav {height: 25px; background-color: black; color: blue;}
+nav {height: 25px; color: blue;}
 main {height: 500px; background-color: black; color: blue;}
-article {height: 450px; background-color: purple; width: 70%; float: left; color: blue; border-radius: 8px; margin: 5px; padding: 5px;}
-aside {height: 150px; background-color: purple; width: 25%; float: right; color: blue; border-radius: 8px; margin: 5px; padding: 5px;}
-footer {height: 200px; background-color: black; color: blue; font-size: 25px; text-align: center;}
+article {height: 725px; background-color: Blue; width: 70%; float: left; color: black; border-radius: 8px; margin: 5px; padding: 5px;}
+aside {height: 150px; background-color: blue; width: 25%; float: right; color: black; border-radius: 8px; margin: 5px; padding: 5px;}
+footer {height: 200px; background-color: blue; color: black; font-size: 25px; text-align: center; width: 25%; float: right; border-radius: 8px; margin: 5px; padding: 5px;}
 .pulse {animation: pulse 5s infinite;}
 @keyframes pulse {0% {transform: scale(1);} 50% {transform: scale(1.2);} 100% {transform: scale(1);}}
-.btn {display: inline-block; padding: 12px 24px; background: purple; color: blue; text-decoration: dashed; border-radius:10px; font-weight: bold; transition: 0.5s ease;}
-.btn:hover {background: darkviolet;}
+.btn {display: inline-block; padding: 12px 24px; background: blue; color: black; text-decoration: dashed; border-radius:10px; font-weight: bold; transition: 0.5s ease;}
+.btn:hover {background: cyan;}
+.bodytext {color: Black; font-size: 25pt; font-family: Arial, Helvetica, sans-serif; text-align: center;}
+#shadow {box-shadow: 5px 5px 10px 5px rgba(128, 0, 128, 0.5);}
