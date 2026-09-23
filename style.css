@@ -1,22 +1,22 @@
-body {background-color: black; color: blue; font-family: Arial, Helvetica, sans-serif;}
+body {background-color: black; color:  rgb(15, 15, 175); font-family: Arial, Helvetica, sans-serif;}
 html {background-color: black; cursor: crosshair;}
-h1 {background-color: black; color: blue; font-size: 25pt; font-family: Arial, Helvetica, sans-serif;}
+h1 {background-color: black; color:  rgb(15, 15, 175); font-size: 25pt; font-family: Arial, Helvetica, sans-serif;}
 h2 {color: black; font-size: 25pt; font-family: Arial, Helvetica, sans-serif;}
-header {height: 50px; background-color: black; color: blue;}
-nav {height: 25px; color: blue;}
-main {height: 100%; background-color: black; color: blue;}
-article {height: 100%; background-color: rgb(27, 27, 227); width: 70%; float: left; color: black; border-radius: 8px; margin: 5px; padding: 5px; text-align: left;}
-aside {height: 150px; background-color: blue; width: 25%; float: right; color: black; border-radius: 8px; margin: 5px; padding: 5px;}
-footer {height: 200px; background-color: blue; color: black; font-size: 25px; text-align: center; width: 25%; float: right; border-radius: 8px; margin: 5px; padding: 5px;}
+header {height: 50px; background-color: black; color:  rgb(15, 15, 175);}
+nav {height: 25px; color:  rgb(15, 15, 175);}
+main {height: 100%; background-color: black; color: rgb(15, 15, 175);}
+article {height: 100%; background-color: rgb(15, 15, 175); width: 70%; float: left; color: black; border-radius: 8px; margin: 5px; padding: 5px; text-align: left;}
+aside {height: 150px; background-color: rgb(15, 15, 175); width: 25%; float: right; color: black; border-radius: 8px; margin: 5px; padding: 5px;}
+footer {height: 200px; background-color: rgb(15, 15, 175); color: black; font-size: 25px; text-align: center; width: 25%; float: right; border-radius: 8px; margin: 5px; padding: 5px;}
 .pulse {animation: pulse 5s infinite;}
 @keyframes pulse {0% {transform: scale(1);} 50% {transform: scale(1.2);} 100% {transform: scale(1);}}
-.btn {display: inline-block; padding: 12px 24px; background: blue; color: black; text-decoration: none; border-radius:10px; font-weight: bold; transition: 0.5s ease;}
+.btn {display: inline-block; padding: 12px 24px; background: rgb(15, 15, 175); color: black; text-decoration: none; border-radius:10px; font-weight: bold; transition: 0.5s ease;}
 .btn:hover {background: cyan; color: grey; text-decoration: none; border-radius: 10px; font-weight: bold; transition: 0.5s ease;}
 .bodytext {color: Black; font-size: 25pt; font-family: Arial, Helvetica, sans-serif; text-align: center;}
 #shadow {box-shadow: 5px 5px 10px 5px rgba(128, 0, 128, 0.5);}
-nav a:link {border-radius: 4px 4px 0px 0px; color: black; text-decoration: none; background-color: blue; padding-right: 5px; transition: 0.5s ease; padding-left: 5px;}
-nav a:visited {border-radius: 4px 4px 0px 0px; color: black; text-decoration: none; background-color: blue; padding-right: 5px; transition: 0.5s ease; padding-left: 5px;}
-nav a:active {border-radius: 4px 4px 0px 0px; color: black; text-decoration: none; background-color: blue; padding-right: 5px; transition: 0.5s ease; padding-left: 5px;}
+nav a:link {border-radius: 4px 4px 0px 0px; color: black; text-decoration: none; background-color: rgb(15, 15, 175); padding-right: 5px; transition: 0.5s ease; padding-left: 5px;}
+nav a:visited {border-radius: 4px 4px 0px 0px; color: black; text-decoration: none; background-color: rgb(15, 15, 175); padding-right: 5px; transition: 0.5s ease; padding-left: 5px;}
+nav a:active {border-radius: 4px 4px 0px 0px; color: black; text-decoration: none; background-color: rgb(15, 15, 175); padding-right: 5px; transition: 0.5s ease; padding-left: 5px;}
 nav a:hover {border-radius: 4px 4px 0px 0px; color: grey; text-decoration: none; background-color: cyan; padding-right: 5px; transition: 0.5s ease; padding-left: 5px;}
 table {color: black; border-color: black; font-size: 25px;}
 .num {width: 25%; height: 20%; background-color :purple; text-align: center;}
